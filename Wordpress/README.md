@@ -93,8 +93,8 @@ volumes:
 * Do ssh in the power-shell
 * Fire the following commands
 
-    1) lsblk (check disk)
-    2) df -h (check new size)
-    3) growpart /dev/xvda 1 (increase partation)
-    4) df -h (check new size/verify)
-    5) xfs -growpart /dev/xvda 1(resize file system)
+1) lsblk (check disk)
+2) df -h (check new size)
+3) growpart /dev/xvda 1 (increase partation)
+4) df -h (check new size/verify)
+5) xfs -growpart /dev/xvda 1(resize file system)
