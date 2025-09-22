@@ -1,6 +1,6 @@
 # Create a wordpress image & container using Docker-compose file
 
-## **Step 1:** Make sure you have installed all the dependencies
+## **Step 1:** Make sure you have installed all the dependencies (Install Docker-compose)
 
 1) sudo su
 2) curl -SL https://github.com/docker/compose/releases/download/v2.30.3/docker-compose-linux-x86_64 -o /usr/local/bin/docker-compose
