@@ -95,6 +95,6 @@ volumes:
 
 1) lsblk (check disk)
 2) df -h (check new size)
-3) growpart /dev/xvda 1 (increase partation)
+3) sudo growpart /dev/xvda 1 (increase partation)
 4) df -h (check new size/verify)
-5) xfs -growpart /dev/xvda 1(resize file system)
+5) sudo xfs_growfs -d / (resize file system)
