@@ -70,9 +70,9 @@ volumes:
 
 ## **Step 6:** Access wordpress
 
-1) Open in your browser
+1) Open in your browser (Make sure port 8080 is open in AWS Security Groups)
 
-``` http://<ec2-public-ip> ```
+``` http://<ec2-public-ip>:8080 ```
 
 2) You’ll see the WordPress installation page
 
