@@ -86,15 +86,15 @@ volumes:
 
 ``` docker-compose up -d ```
 
-## **Step 8: (Optional) ** If you have any issue about storage, Increase EBS size
+## **Step 8: (Optional)** If you have any issue about storage, Increase EBS size
 
 * Choose your EC2 instance
 * Go to volumes -> modify volume -> increase the size (16 GB) -> modify
 * Do ssh in the power-shell
 * Fire the following commands
 
-  1) lsblk (check disk)
-  2) df -h (check new size)
-  3) growpart /dev/xvda 1 (increase partation)
-  4) df -h (check new size/verify)
-  5) xfs -growpart /dev/xvda 1(resize file system)
+    1) lsblk (check disk)
+    2) df -h (check new size)
+    3) growpart /dev/xvda 1 (increase partation)
+    4) df -h (check new size/verify)
+    5) xfs -growpart /dev/xvda 1(resize file system)
