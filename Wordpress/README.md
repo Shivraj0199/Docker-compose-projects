@@ -62,6 +62,8 @@ volumes:
 
 ``` docker-compose -f wordpress.yml up -d ```
 
+![](https://github.com/Shivraj0199/Docker-compose-projects/blob/main/Wordpress/Img/Screenshot%202025-09-22%20152136.png)
+
 ## **Step 5:** Verify containers are running
 
 ``` docker-compose -f wordpress.yml ps ```
@@ -75,6 +77,8 @@ volumes:
 ``` http://<ec2-public-ip>:8080 ```
 
 2) You’ll see the WordPress installation page
+
+![](https://github.com/Shivraj0199/Docker-compose-projects/blob/main/Wordpress/Img/Screenshot%202025-09-22%20152219.png)
 
 ## **Step 7:** Stopping and Restarting
 
